@@ -5,8 +5,8 @@
 	"client": {
 		"tlsEnable": true,
 		"caCredential": {
-			"id": "admin",
-			"password": "adminpw"
+			"id": "saltmine",
+			"password": "saltminepw"
 		},
 		"adminCredential": {
 			"id": "org2exploreradmin",

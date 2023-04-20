@@ -170,7 +170,7 @@ export class Platform {
 			user,
 			password,
 			network_id,
-			'admin'
+			'saltmine'
 		).asJson();
 		if (await this.userService.isExist(user, network_id)) {
 			logger.info('Already registered : admin');

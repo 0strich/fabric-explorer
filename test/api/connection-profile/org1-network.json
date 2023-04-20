@@ -4,10 +4,10 @@
 	"license": "Apache-2.0",
 	"client": {
 		"tlsEnable": true,
-		"clientTlsIdentity": "admin",
+		"clientTlsIdentity": "saltmine",
 		"caCredential": {
-			"id": "admin",
-			"password": "adminpw"
+			"id": "saltmine",
+			"password": "saltminepw"
 		},
 		"adminCredential": {
 			"id": "org1exploreradmin",

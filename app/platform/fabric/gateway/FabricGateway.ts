@@ -242,7 +242,7 @@ export class FabricGateway {
 					affiliation: this.fabricConfig.getAdminAffiliation(),
 					enrollmentID: id,
 					enrollmentSecret: secret,
-					role: 'admin'
+					role: 'saltmine'
 				},
 				adminUser
 			);

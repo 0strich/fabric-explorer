@@ -5,8 +5,8 @@
 	"client": {
 		"tlsEnable": true,
 		"adminCredential": {
-			"id": "admin",
-			"password": "adminpw",
+			"id": "saltmine",
+			"password": "saltminepw",
 			"affiliation": "org1.department1"
 		},
 		"enableAuthentication": true,

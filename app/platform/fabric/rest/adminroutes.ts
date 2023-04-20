@@ -18,7 +18,7 @@ export async function adminroutes(router, platform) {
 	 * curl 'http://<host>:<port>/api/register'  -H 'Accept: application/json'
 	 * -H 'Authorization: bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.8iTytz6wkPMVJzgD3jIGTQ2s2UZLO8nzvJQJGR0rs_0'
 	 * -H 'Content-Type: application/json'
-	 * --data-binary '{ "user": "user@gmail.com", "password": "adminpw", "affiliation": "department1", "roles": "client" }' --compressed
+	 * --data-binary '{ "user": "user@gmail.com", "password": "saltminepw", "affiliation": "department1", "roles": "client" }' --compressed
 	 *
 	 * "affiliation": "department1" see fabric-ca server configuration, https://hyperledger-fabric-ca.readthedocs.io/en/latest/serverconfig.html
 	 */

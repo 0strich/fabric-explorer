@@ -15,8 +15,8 @@ setupPage = async context => {
 	} else {
 		await page.goto('http://localhost:8080');
 	}
-	await page.fill('#user', 'admin');
-	await page.fill('#password', 'adminpw');
+	await page.fill('#user', 'saltmine');
+	await page.fill('#password', 'saltminepw');
 	await page.click('button[type=submit]');
 	await sleep(2000);
 	return new Promise(resolve => resolve(page));

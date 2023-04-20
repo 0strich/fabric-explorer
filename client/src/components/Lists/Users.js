@@ -80,7 +80,7 @@ export class Users extends Component {
 		super(props);
 		const { registered, userlists } = props;
 		this.state = {
-			rolesList: ['admin', 'user'],
+			rolesList: ['saltmine', 'user'],
 			error: '',
 			registered,
 			isLoading: false,
@@ -176,7 +176,7 @@ export class Users extends Component {
 					<List className={classes.root}>
 						{this.state.userlists.map(user => (
 							<ListItem key={user.username}>
-								{user.roles === 'admin' ? (
+								{user.roles === 'saltmine' ? (
 									<ListItemAvatar className={classes.adminIcon}>
 										<Avatar>
 											<SupervisorAccountIcon />

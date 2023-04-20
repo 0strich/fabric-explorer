@@ -648,8 +648,8 @@ adminPrivateKeyPath  /Users/USER_ID/workspace/fabric-1.3/fabric-samples/balance-
     license: 'Apache-2.0',
     client:
     { tlsEnable: true,
-        adminUser: 'admin',
-        adminPassword: 'adminpw',
+        adminUser: 'saltmine',
+        adminPassword: 'saltminepw',
         enableAuthentication: true,
         organization: 'Org1',
         connection: { timeout: [Object] } },
@@ -732,8 +732,8 @@ adminPrivateKeyPath  /Users/USER_ID/workspace/fabric-1.3/fabric-samples/balance-
     license: 'Apache-2.0',
     client:
     { tlsEnable: true,
-        adminUser: 'admin',
-        adminPassword: 'adminpw',
+        adminUser: 'saltmine',
+        adminPassword: 'saltminepw',
         enableAuthentication: false,
         organization: 'Org1',
         connection: { timeout: [Object] } },
@@ -891,8 +891,8 @@ adminPrivateKeyPath  /Users/USER_ID/workspace/fabric-1.3/fabric-samples/balance-
     license: 'Apache-2.0',
     client:
     { tlsEnable: true,
-        adminUser: 'admin',
-        adminPassword: 'adminpw',
+        adminUser: 'saltmine',
+        adminPassword: 'saltminepw',
         enableAuthentication: false,
         organization: 'Org1',
         connection: { timeout: [Object] } },

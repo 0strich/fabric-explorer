@@ -177,7 +177,7 @@
 					"#",
 					"-yyyy",
 					"-yyyy-MM-dd",
-					"adminpw",
+					"saltminepw",
 					"adminroutes",
 					"aff",
 					"anchorpeer",

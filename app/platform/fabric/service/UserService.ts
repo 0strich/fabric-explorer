@@ -121,7 +121,7 @@ export class UserService {
 						`User who requests doesn't exist : ${userObj.requestUserId}`
 					);
 				}
-				return userEntry.roles === 'admin';
+				return userEntry.roles === 'saltmine';
 			});
 	}
 

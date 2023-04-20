@@ -138,7 +138,7 @@ First you need to login using admin credential to get a JSON Web token.
           "networkName": "test-network",
           "firstName": null,
           "lastName": null,
-          "roles": "admin"
+          "roles": "saltmine"
         },
         {
           "username": "newuser",
@@ -236,8 +236,8 @@ $ curl -s --location --request POST 'localhost:8080/api/unregister' \
     "client": {
       "tlsEnable": true,
       "caCredential": {
-        "id": "admin",
-        "password": "adminpw"
+        "id": "saltmine",
+        "password": "saltminepw"
       },
       "adminCredential": {
         "id": "exploreradmin",

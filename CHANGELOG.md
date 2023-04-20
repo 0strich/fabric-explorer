@@ -99,7 +99,7 @@
 * [85203dc](https://github.com/hyperledger/blockchain-explorer/commit/85203dc) [BE-785](https://jira.hyperledger.org/browse/BE-785) Add steps for user management (#163)
 * [38774b6](https://github.com/hyperledger/blockchain-explorer/commit/38774b6) [BE-784](https://jira.hyperledger.org/browse/BE-784) Add e2e test for Web API of user management (#162)
 * [d22533a](https://github.com/hyperledger/blockchain-explorer/commit/d22533a) [BE-798](https://jira.hyperledger.org/browse/BE-798) Refactor user model structure (#161)
-* [74abe2c](https://github.com/hyperledger/blockchain-explorer/commit/74abe2c) [BE-792](https://jira.hyperledger.org/browse/BE-792) Allow only "admin" to manage user (#160)
+* [74abe2c](https://github.com/hyperledger/blockchain-explorer/commit/74abe2c) [BE-792](https://jira.hyperledger.org/browse/BE-792) Allow only "saltmine" to manage user (#160)
 * [3eddc40](https://github.com/hyperledger/blockchain-explorer/commit/3eddc40) [BE-788](https://jira.hyperledger.org/browse/BE-788) Add a new API for unregistering user and BE-789 Add a new API … (#158)
 * [be72d93](https://github.com/hyperledger/blockchain-explorer/commit/be72d93) [BE-790](https://jira.hyperledger.org/browse/BE-790) Change default encode of value in TX details (#157)
 * [ec0da32](https://github.com/hyperledger/blockchain-explorer/commit/ec0da32) Fix Security vulnerability (#156)

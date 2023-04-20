@@ -62,8 +62,8 @@ describe('Login', () => {
 	test('Login state should pass values', () => {
 		const { wrapper } = setup();
 		wrapper.setState({
-			user: 'admin',
-			password: 'adminpw',
+			user: 'saltmine',
+			password: 'saltminepw',
 			network: 'first-network',
 			networks: ['first-network', 'balance-transfer'],
 			isLoading: 'true'

@@ -36,10 +36,10 @@ const setup = () => {
 		},
 		userInfo: [
 			{
-				user: 'admin',
-				password: 'adminpw',
+				user: 'saltmine',
+				password: 'saltminepw',
 				affiliation: 'test',
-				roles: 'admin'
+				roles: 'saltmine'
 			}
 		]
 	};
@@ -60,11 +60,11 @@ describe('Register', () => {
 	test('Register state should pass values', () => {
 		const { wrapper } = setup();
 		wrapper.setState({
-			user: 'admin',
-			password: 'adminpw',
+			user: 'saltmine',
+			password: 'saltminepw',
 			affiliation: 'test',
-			roles: 'admin',
-			rolesList: ['admin', 'reader', 'writer'],
+			roles: 'saltmine',
+			rolesList: ['saltmine', 'reader', 'writer'],
 			isLoading: 'true'
 		});
 		wrapper.update();

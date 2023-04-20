@@ -103,7 +103,7 @@ export class Register extends Component {
 				error: null,
 				value: ''
 			},
-			rolesList: ['admin', 'user'],
+			rolesList: ['saltmine', 'user'],
 			error: '',
 			registered,
 			isLoading: false,

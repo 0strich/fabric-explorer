@@ -9,8 +9,8 @@
 			"affiliation": "org1.department1"
 		},
 		"caCredential": {
-			"id": "admin",
-			"password": "adminpw"
+			"id": "saltmine",
+			"password": "saltminepw"
 		},
 		"enableAuthentication": true,
 		"organization": "Org1MSP",
